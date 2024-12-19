@@ -68,27 +68,38 @@ main {
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 60px;
-  width: 1, 441px;
-  height: 1, 055px;
-  gap: 40px;
+  text-align: left;
+  width: Fill (1, 441px) px;
+  height: Hug (599px) px;
+  top: 96px;
+  right: 144px;
+  bottom: 96px;
+  left: 144px;
+  gap: 104px;
+  background-color: #f5f7fa;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  color: #333;
-  font-weight: bold;
+  width: 658px;
+  height: 152px;
+  size: 64px;
+  font-weight: 600;
+  color: #4d4d4d;
 }
 
 .hero span {
   color: #4caf50;
+  font-weight: 600;
+  size: 64px;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin: 20px 0;
+  width: 658px;
+  height: 24px;
+  size: 16px;
+  font-weight: 400;
 }
 
 .hero .button {
@@ -102,14 +113,20 @@ main {
 }
 
 .hero img {
-  max-width: 50%;
-  height: auto;
+  width: 391px;
+  height: 407px;
+  gap: 0px;
+  opacity: 0px;
+  display: right;
 }
 
 .section {
+  width: Hug (1, 440px) px;
+  height: Hug (443px) px;
+  gap: 16px;
   text-align: center;
   margin-bottom: 60px;
-  background-color: #f5f7fa;
+  background-color: #ffffff;
 }
 
 .section h2 {
@@ -131,7 +148,6 @@ main {
   max-width: 70%;
   margin-top: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button {
