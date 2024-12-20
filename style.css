@@ -8,30 +8,24 @@ body {
 
 header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  top: 22px;
-  right: 105px;
-  bottom: 22px;
-  left: 105px;
-  gap: 145px;
-  background-color: #f5f7faff;
+  padding: 20px 10%;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu ul {
-  align-items: center;
+  display: flex;
   list-style: none;
   gap: 20px;
-  width: 588px;
-  height: 24px;
 }
 
 .menu a {
   text-decoration: none;
-  color: #18191f;
+  color: #333;
   font-weight: bold;
   font-size: 14px;
-  align-items: center;
 }
 
 .menu a:hover {
@@ -45,12 +39,11 @@ header {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  align-items: center;
 }
 
 .actions .login {
   background: none;
-  color: #4caf4f;
+  color: #333;
   margin-right: 10px;
 }
 
@@ -59,22 +52,20 @@ header {
   color: #fff;
 }
 
+main {
+  padding: 40px 10%;
+}
+
 .hero {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
-  background-color: #f5f7fa;
-  width: Fill (1, 441px) px;
-  height: Hug (599px) px;
-  padding: 96px 144px 96px 144px;
-  gap: 104px;
-  opacity: 0px;
 }
 
 .hero h1 {
   font-size: 3rem;
-  color: #18191f;
+  color: #333;
   font-weight: bold;
 }
 
@@ -103,72 +94,37 @@ header {
 }
 
 .HERO2 {
+  width: Hug (1, 440px) px;
+  height: Hug (416px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.HERO2 h2 {
+  align-items: center;
   text-align: center;
+  font-weight: 600;
+  size: 36px;
 }
 
-.body1 {
-  text-align: left;
-  margin-bottom: 60px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.body1 h2 {
-  font-size: 2rem;
-  color: #18191f;
-  margin-bottom: 20px;
-}
-
-.body1 p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 20px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.body1 img {
-  max-width: 70%;
-  margin-top: 20px;
-  border-radius: 8px;
-}
-
-.button {
-  display: inline-block;
-  background-color: #4caf50;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-.body2 {
-  text-align: left;
-  margin-bottom: 60px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.HERO2 p {
+  text-align: center;
+  font-weight: 400;
+  size: 16px;
 }
 
 .text {
-  width: fixed (1.2px);
-  height: hug (364px);
-  align-items: center;
+  width: Fixed (1, 200px) px;
+  height: Hug (364px) px;
+  padding: 64px 0px 64px 0px;
+  gap: 32px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
 
+  display: table-cell;
   text-align: center;
   padding-top: 2%;
-  background-color: #f5f7fa;
-  width: 887px;
-  height: 152px;
-  font-weight: 600;
-  size: 64px;
-  color: #263238;
+  background-color: #ffffff;
 }
 
 .text .button {
@@ -180,10 +136,5 @@ header {
   background-color: #263238;
   color: #ffffff;
   font-size: 14px;
-  text-align: center;
-  width: Fill (1, 440px) px;
-  height: Hug (148px) px;
-  padding: 64px 165px 64px 165px;
-  gap: 125px;
-  opacity: 0px;
+  align-items: center;
 }
