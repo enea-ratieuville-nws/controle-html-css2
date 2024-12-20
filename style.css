@@ -4,12 +4,14 @@ body {
   color: #4d4d4d;
   background-color: #ffffff;
   margin: 0;
+  width: 1, 441px;
+  height: 599px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 20px 10%;
   background-color: #f5f7fa;
 }
@@ -58,24 +60,39 @@ main {
 .hero {
   background-color: #f5f7fa;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
+  width: 1, 441px;
+  height: 599px;
+  float: left;
 }
 
 .hero h1 {
   font-size: 3rem;
   color: #4d4d4d;
   font-weight: bold;
+  float: left;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  text-align: left;
 }
 
 .hero span {
   color: #4caf50;
+  float: left;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  text-align: left;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin: 20px 0;
+  float: left;
 }
 
 .hero .button {
@@ -86,9 +103,10 @@ main {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  float: left;
 }
 
-.hero img {
+.picture img {
   max-width: 50%;
   height: auto;
 }
@@ -126,7 +144,6 @@ main {
   gap: 48px;
   opacity: 0px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -189,13 +206,12 @@ main {
   font-weight: bold;
 }
 
-.text {
+.text h1 {
   width: Fixed (1, 200px) px;
   height: Hug (364px) px;
   padding: 64px 64px;
   gap: 32px;
   border-radius: 8px;
-  display: table-cell;
   text-align: center;
   align-items: center;
   padding-top: 2%;
@@ -203,7 +219,6 @@ main {
 }
 
 .text .button {
-  display: inline-block;
   background-color: #4caf50;
   color: #fff;
   padding: 10px 20px;
@@ -212,7 +227,7 @@ main {
   font-weight: bold;
 }
 
-.Copyright {
+.Copyright p {
   background-color: #263238;
   color: #ffffff;
   font-size: 14px;
@@ -220,6 +235,5 @@ main {
   height: Hug (148px) px;
   padding: 64px 165px 64px 165px;
   gap: 125px;
-  opacity: 0px;
-  align-items: center;
+  text-align: center;
 }
