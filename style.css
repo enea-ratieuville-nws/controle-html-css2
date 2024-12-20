@@ -8,7 +8,7 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   top: 22px;
   right: 105px;
@@ -19,7 +19,7 @@ header {
 }
 
 .menu ul {
-  display: flex;
+  align-items: center;
   list-style: none;
   gap: 20px;
   width: 588px;
@@ -31,6 +31,7 @@ header {
   color: #18191f;
   font-weight: bold;
   font-size: 14px;
+  align-items: center;
 }
 
 .menu a:hover {
@@ -44,6 +45,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+  align-items: center;
 }
 
 .actions .login {
@@ -101,6 +103,10 @@ header {
 }
 
 .HERO2 {
+  text-align: center;
+}
+
+.body1 {
   text-align: left;
   margin-bottom: 60px;
   background-color: #ffffff;
@@ -109,13 +115,13 @@ header {
   align-items: center;
 }
 
-.HERO2 h2 {
+.body1 h2 {
   font-size: 2rem;
   color: #18191f;
   margin-bottom: 20px;
 }
 
-.HERO2 p {
+.body1 p {
   font-size: 1rem;
   color: #666;
   margin-bottom: 20px;
@@ -124,7 +130,7 @@ header {
   margin-right: auto;
 }
 
-.HERO2 img {
+.body1 img {
   max-width: 70%;
   margin-top: 20px;
   border-radius: 8px;
@@ -141,10 +147,20 @@ header {
   margin-top: 20px;
 }
 
-.demo-section {
+.body2 {
+  text-align: left;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
   width: fixed (1.2px);
   height: hug (364px);
-  display: table-cell;
+  align-items: center;
+
   text-align: center;
   padding-top: 2%;
   background-color: #f5f7fa;
@@ -155,16 +171,19 @@ header {
   color: #263238;
 }
 
-.demo-section .button {
+.text .button {
   background-color: #4caf4f;
   color: #ffffff;
 }
 
-footer {
+.Copyright {
   background-color: #263238;
   color: #ffffff;
   font-size: 14px;
   text-align: center;
-  width: fill (1, 440px);
-  height: hug (148px);
+  width: Fill (1, 440px) px;
+  height: Hug (148px) px;
+  padding: 64px 165px 64px 165px;
+  gap: 125px;
+  opacity: 0px;
 }
