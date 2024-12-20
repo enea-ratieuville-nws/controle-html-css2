@@ -113,7 +113,73 @@ main {
   size: 16px;
 }
 
-.HERO2 .button {
+.HERO2 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body1 {
+  background-color: #ffffff;
+  width: hug (1, 440px) px;
+  height: Hug (443px) px;
+  gap: 48px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body1 h2 {
+  width: 601px;
+  height: 88px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+}
+
+.body1 p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.body1 .button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.body2 {
+  width: hug (1, 440px) px;
+  height: Hug (443px) px;
+  gap: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body2 h2 {
+  width: 601px;
+  height: 88px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+}
+
+.body2 .button {
   display: inline-block;
   background-color: #4caf50;
   color: #fff;
@@ -131,6 +197,7 @@ main {
   border-radius: 8px;
   display: table-cell;
   text-align: center;
+  align-items: center;
   padding-top: 2%;
   background-color: #f5f7fa;
 }
@@ -149,10 +216,10 @@ main {
   background-color: #263238;
   color: #ffffff;
   font-size: 14px;
-  align-items: center;
   width: Fill (1, 440px) px;
   height: Hug (148px) px;
   padding: 64px 165px 64px 165px;
   gap: 125px;
   opacity: 0px;
+  align-items: center;
 }
