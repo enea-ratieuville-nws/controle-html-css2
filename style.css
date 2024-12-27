@@ -59,44 +59,38 @@ main {
 
 .hero {
   background-color: #f5f7fa;
-  display: flex;
-  align-items: center;
   margin-bottom: 60px;
   width: 1, 441px;
   height: 599px;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .hero h1 {
   font-size: 3rem;
   color: #4d4d4d;
   font-weight: bold;
-  float: left;
   font-family: Inter;
   font-size: 64px;
   font-weight: 600;
   line-height: 76px;
-  text-align: left;
 }
 
 .hero span {
   color: #4caf50;
-  float: left;
   font-family: Inter;
   font-size: 64px;
   font-weight: 600;
   line-height: 76px;
-  text-align: left;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin: 20px 0;
-  float: left;
 }
 
 .hero .button {
-  display: inline-block;
   background-color: #4caf50;
   color: #fff;
   padding: 10px 20px;
@@ -104,12 +98,12 @@ main {
   text-decoration: none;
   font-weight: bold;
 }
-
-.picture img {
-  max-width: 50%;
-  height: auto;
+.picture {
+  width: 391px;
+  height: 407px;
+  gap: 0px;
+  opacity: 0px;
 }
-
 .HERO2 {
   width: Hug (1, 440px) px;
   height: Hug (416px) px;
