@@ -104,6 +104,7 @@ main {
   height: 407px;
   gap: 0px;
   opacity: 0px;
+  align-self: right;
 }
 .HERO2 {
   width: Hug (1, 440px) px;
