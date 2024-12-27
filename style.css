@@ -59,19 +59,19 @@ main {
 
 .hero {
   background-color: #f5f7fa;
+  display: flex;
+  align-items: center;
   margin-bottom: 60px;
   width: 1, 441px;
   height: 599px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
+  float: left;
 }
 
 .hero h1 {
   font-size: 3rem;
   color: #4d4d4d;
   font-weight: bold;
+  float: left;
   font-family: Inter;
   font-size: 64px;
   font-weight: 600;
@@ -81,6 +81,7 @@ main {
 
 .hero span {
   color: #4caf50;
+  float: left;
   font-family: Inter;
   font-size: 64px;
   font-weight: 600;
@@ -95,6 +96,7 @@ main {
 }
 
 .hero .button {
+  display: inline-block;
   background-color: #4caf50;
   color: #fff;
   padding: 10px 20px;
@@ -104,8 +106,6 @@ main {
 }
 
 .picture img {
-  width: 391px;
-  height: 407px;
   max-width: 50%;
   height: auto;
 }
@@ -141,9 +141,8 @@ main {
   width: hug (1, 440px) px;
   height: Hug (443px) px;
   gap: 48px;
+  opacity: 0px;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
   align-items: center;
 }
 
